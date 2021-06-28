@@ -45,6 +45,17 @@ namespace ifrpoExam
                     }
                 }    
             }
+            else
+            {
+                try
+                {
+                    InnerRadius.Text = Convert.ToString(Convert.ToInt32(Inner.Text) / 2);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Введены не числовые данные");
+                }
+            }
         }
     }
 }
