@@ -32,6 +32,17 @@ namespace ifrpoExam
                 if (Outer.Text == "")
                 {
                     MessageBox.Show("Не введены диаметры подшипника");
+                }  
+                                else
+                {
+                    try
+                    {
+                        OuterReadius.Text = Convert.ToString(Convert.ToInt32(Outer.Text) / 2);
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Введены не числовые данные");
+                    }
                 }    
             }
         }
