@@ -1,0 +1,21 @@
+﻿<Window x:Class="ifrpoExam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ifrpoExam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Вычислить радиус&#xD;&#xA;подшипника" HorizontalAlignment="Left" Margin="387,202,0,0" VerticalAlignment="Top" Width="137" Height="39" Click="Button_Click"/>
+        <TextBox x:Name="Inner" HorizontalAlignment="Left" Height="23" Margin="88,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Outer" HorizontalAlignment="Left" Height="23" Margin="88,230,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="213,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Внешний диам"/><Run Text="е"/><Run Text="тр"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="213,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"><Run Text="Внутренний "/><Run Text="диаметр"/></TextBlock>
+        <TextBox x:Name="OuterReadius" HorizontalAlignment="Left" Height="23" Margin="88,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="InnerRadius" HorizontalAlignment="Left" Height="23" Margin="88,313,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="InnerRadius_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Margin="213,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"><Run Text="Внутренний "/><Run Text="радиус"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="213,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Text="Внешний радиус"/>
+
+    </Grid>
+</Window>
