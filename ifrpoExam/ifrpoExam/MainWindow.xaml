@@ -13,7 +13,7 @@
         <TextBlock HorizontalAlignment="Left" Margin="213,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top"><Run Text="Внешний диам"/><Run Text="е"/><Run Text="тр"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="213,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"><Run Text="Внутренний "/><Run Text="диаметр"/></TextBlock>
         <TextBox x:Name="OuterReadius" HorizontalAlignment="Left" Height="23" Margin="88,341,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="InnerRadius" HorizontalAlignment="Left" Height="23" Margin="88,313,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="InnerRadius_TextChanged"/>
+        <TextBox x:Name="InnerRadius" HorizontalAlignment="Left" Height="23" Margin="88,313,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <TextBlock HorizontalAlignment="Left" Margin="213,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121"><Run Text="Внутренний "/><Run Text="радиус"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="213,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="121" Text="Внешний радиус"/>
 
