@@ -56,6 +56,18 @@ namespace ifrpoExam
                     MessageBox.Show("Введены не числовые данные");
                 }
             }
+            if (Inner.Text != "" && Outer.Text != "")
+            {
+                try
+                {
+                    InnerRadius.Text = Convert.ToString(Convert.ToInt32(Inner.Text) / 2);
+                    OuterReadius.Text = Convert.ToString(Convert.ToInt32(Outer.Text) / 2);
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Введены не числовые данные");
+                }
+            }
         }
     }
 }
