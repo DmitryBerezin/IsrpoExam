@@ -27,7 +27,13 @@ namespace ifrpoExam
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            if (Inner.Text == "")
+            {
+                if (Outer.Text == "")
+                {
+                    MessageBox.Show("Не введены диаметры подшипника");
+                }    
+            }
         }
     }
 }
